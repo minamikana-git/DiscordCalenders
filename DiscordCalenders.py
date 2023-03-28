@@ -20,4 +20,4 @@ async def today_events(ctx):
         if today == datetime.datetime.strptime(message.content.split(':')[0], '%Y-%m-%d').date():
             await ctx.send(message.content.split(':')[1])
 
-bot.run('MTA4NDgwNjExOTMxMjA3Njg1MA.GHcaGu.cJG-jhGEFjIUgpjauj4P0GuvlgOJnv8eQzQDmI')
+bot.run('token')
